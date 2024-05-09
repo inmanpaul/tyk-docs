@@ -42,7 +42,7 @@ Using [this](https://bit.ly/39tnXgO) minimal API definition it is possible to cr
 curl --location --request POST 'http://{your-tyk-host}:{port}/tyk/apis/oas' \
 --header 'x-tyk-authorization: {your-secret}' \
 --header 'Content-Type: text/plain' \
---data-raw 
+--data-raw \
 '{
   "info": {
     "title": "Petstore",
